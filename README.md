@@ -11,6 +11,11 @@ Before you begin, ensure you have met the following requirements:
 
 - Python 3.6 or higher
 - pip (Python package installer)
+- (3) APIs enabled
+  - `mybusinessbusinessinformation` (v1)
+  - `mybusinessaccountmanagement` (v1)
+  - `mybusiness` (aka "Google My Business" on v4)
+- GMB API KEY
 
 ## Installation
 
