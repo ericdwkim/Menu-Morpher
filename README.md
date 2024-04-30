@@ -13,6 +13,7 @@ Before you begin, ensure you have met the following requirements:
 - pip (Python package installer)
 - Completed the [Prerequisites - Google Business Profile APIs](https://developers.google.com/my-business/content/prereqs)
 - Have your `project_id` handy
+- [OAuth2.0 credentials](https://developers.google.com/my-business/content/basic-setup#request-client-id) requested, created, and [consented](https://console.cloud.google.com/apis/credentials/consent?project={your_project_id_here})
 - Enabled the following (3) APIs via `APIs & Services` through Google Cloud Console (GCC)
 
 NOTE: To use the following hyperlinks, replace `{your_project_id_here}` with your _actual_ `project_id`:
@@ -69,3 +70,4 @@ conda activate menumorpher
 ```bash
 pip install -r requirements.txt
 ```
+
