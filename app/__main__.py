@@ -56,10 +56,10 @@ class App:
         canHaveFoodMenus_flag = location_metadata['metadata']['canHaveFoodMenus']
         # if flag is true, inform user to proceed with jsons to menu.json to then update()
         if canHaveFoodMenus_flag:
-            logging.info(f'Based on your location ID: "{self.location_id}", you can call update_food_menu via comamnd line flag `--update`')
+            logging.info(f'Yes! Based on your location ID: "{self.location_id}", you can call update_food_menu via comamnd line flag `--update`')
             logging.warning(f'\nPlease ensure that all changes have already been made to your menu.json prior to calling update!')
         else:
-            logging.error(f'Based on your provided location ID: {self.location_id}, you will NOT be able to update food menus via updateFoodMenus API\nPlease see "https://developers.google.com/my-business/reference/rest/v4/accounts.locations" for more details.\nYour `canHaveFoodMenus`: {canHaveFoodMenus_flag}\n')
+            logging.error(f'No! Based on your provided location ID: {self.location_id}, you will NOT be able to update food menus via updateFoodMenus API\nPlease see "https://developers.google.com/my-business/reference/rest/v4/accounts.locations" for more details.\nYour `canHaveFoodMenus`: {canHaveFoodMenus_flag}\n')
 
     # PATCH request
     def update_food_menu(self):
@@ -74,7 +74,7 @@ class App:
             ).execute()
 
             if isinstance(response, dict):
-                logging.info('Successfully updated food menu!')
+                logging.info('Successfully updated food menu!\nVerify your updated food menu by clicking here: "https://www.google.com/business/" and click "Manage now" > "Edit menu"')
             else:
                 logging.error('Failed to update food menu')
         except Exception:
@@ -86,7 +86,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='GMB API Python Client')
     parser.add_argument('--download', required=False, action='store_true', help='Downloads food menu via getFoodMenus API')
     parser.add_argument('--update', required=False, action='store_true', help='Updates food menu via updateFoodMenus API')
-    parser.add_argument('--canHaveFoodMenus', required=False, action='store_true', help='Checks metadata for flag to determine whether a location can perform updateFoodMenus')
+    parser.add_argument('--check', required=False, action='store_true', help='Checks metadata for flag to determine whether a location can perform updateFoodMenus')
     args = parser.parse_args()
 
     app = App()
@@ -94,5 +94,5 @@ if __name__ == '__main__':
         app.download_food_menu()
     if args.update:
         app.update_food_menu()
-    if args.canHaveFoodMenus:
+    if args.check:
         app.get_canHaveFoodMenus()
