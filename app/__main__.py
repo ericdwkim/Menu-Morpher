@@ -44,7 +44,6 @@ class App:
         else:
             logging.error('Failed to download food menu')
 
-    # TODO - test getter & cmd flag
     def get_canHaveFoodMenus(self):
         logging.info('Checking `canHaveFoodMenus` flag in FoodMenus.Metadata object...')
         service_mbbi = build('mybusinessbusinessinformation', 'v1', credentials=self.credentials)
@@ -86,6 +85,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='GMB API Python Client')
     parser.add_argument('--download', required=False, action='store_true', help='Downloads food menu via getFoodMenus API')
     parser.add_argument('--update', required=False, action='store_true', help='Updates food menu via updateFoodMenus API')
+    parser.add_argument('--canHaveFoodMenus', required=False, action='store_true', help='Checks metadata for flag to determine whether a location can perform updateFoodMenus')
     args = parser.parse_args()
 
     app = App()
@@ -93,6 +93,5 @@ if __name__ == '__main__':
         app.download_food_menu()
     if args.update:
         app.update_food_menu()
-    # TODO: add new flag
     if args.canHaveFoodMenus:
         app.get_canHaveFoodMenus()
