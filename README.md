@@ -71,3 +71,28 @@ conda activate menumorpher
 pip install -r requirements.txt
 ```
 
+## Morph My Menus!
+
+### Step 1: Download your menus locally
+
+This calls the `getFoodMenus` API and saves your menus locally as `menu.json` within your root projct directory
+```python
+python -m app.__main__ --download
+```
+
+### Step 2: Check that your location can update menus
+
+This calls the `get_canHaveFoodMenus` method and will inform you via console logs whether your location can update menus or not. `canHaveFoodMenus_flag` must yield `True`.
+
+```python
+python -m app.__main__ --check
+```
+### Step 3: Make the menu changes
+Make the necessary changes to your `menu.json`
+
+### Step 4: Update your menus
+This calls the `updateFoodMenus` API and makes the PATCH request to ~~update~~ morph your menus completely!
+```python
+python -m app.__main__ --update
+```
+
