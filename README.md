@@ -11,11 +11,24 @@ Before you begin, ensure you have met the following requirements:
 
 - Python 3.6 or higher
 - pip (Python package installer)
-- (3) APIs enabled
-  - `mybusinessbusinessinformation` (v1)
-  - `mybusinessaccountmanagement` (v1)
-  - `mybusiness` (aka "Google My Business" on v4)
-- GMB API KEY
+- Completed the [Prerequisites - Google Business Profile APIs](https://developers.google.com/my-business/content/prereqs)
+- Have your `project_id` handy
+- Enabled the following (3) APIs via `APIs & Services` through Google Cloud Console (GCC)
+
+NOTE: To use the following hyperlinks, replace `{your_project_id_here}` with your _actual_ `project_id`:
+
+### [GCC - APIs & Services](https://console.cloud.google.com/apis/dashboard?project={your_project_id_here})
+
+#### [MyBusinessBusinessInformation](https://console.cloud.google.com/apis/api/mybusinessbusinessinformation.googleapis.com/metrics?project={your_project_id_here})
+serviceName:`mybusinessbusinessinformation` |
+version: `v1`
+#### [MyBusinessAccountManagement](https://console.cloud.google.com/apis/api/mybusinessaccountmanagement.googleapis.com/metrics?project={your_project_id_here})
+serviceName:`mybusinessaccountmanagement` |
+version: `v1`
+#### [Google My Business](https://console.cloud.google.com/apis/api/mybusiness.googleapis.com/quotas?project={your_project_id_here}) 
+serviceName: `mybusiness` (aka "Google My Business") |
+version: `v4`
+
 
 ## Installation
 
