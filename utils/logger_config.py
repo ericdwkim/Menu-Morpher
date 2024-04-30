@@ -3,7 +3,7 @@ import logging
 
 class CustomFormatter(logging.Formatter):
     GREEN = "\033[0;32m"
-    YELLOW = "\E[33;47m"
+    YELLOW = "\033[33;47m"
     RED = "\033[1;31m"
     RESET = "\033[0;0m"
 
