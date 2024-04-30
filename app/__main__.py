@@ -80,6 +80,8 @@ class App:
         except Exception:
             logging.exception('An error occurred while updating food menu')
 
+    # TODO: feat - revert() latest pushed changes
+
 
 
 if __name__ == '__main__':
