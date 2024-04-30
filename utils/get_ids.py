@@ -10,17 +10,16 @@ SCOPES = ['https://www.googleapis.com/auth/business.manage']
 # Function to get credentials
 def get_credentials():
     creds = None
-    if os.path.exists('../token.json'):
-        creds = Credentials.from_authorized_user_file('../token.json', SCOPES)
+    if os.path.exists('token.json'):
+        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            # TODO: relative json file paths for both creds and token
             flow = InstalledAppFlow.from_client_secrets_file(
-                '/Users/ekim/workspace/personal/menu-morpher/utils/credentials.json', SCOPES)
+                'utils/credentials.json', SCOPES)
             creds = flow.run_local_server(port=0)
-        with open('../token.json', 'w') as token:
+        with open('token.json', 'w') as token:
             token.write(creds.to_json())
     return creds
 
@@ -53,7 +52,6 @@ def get_account_and_location_ids():
     ).execute()
 
     location_id = locations['locations'][0]['name']
-    # print(account_id, location_id)
     return account_id, location_id
 
 

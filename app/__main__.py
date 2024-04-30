@@ -63,7 +63,7 @@ class App:
     # PATCH request
     def update_food_menu(self):
         logging.info('Updating food menu...')
-        with open('../food_menu.json', 'r', encoding='utf-8') as file:
+        with open('menu.json', 'r', encoding='utf-8') as file:
             food_menu_body = json.load(file)
 
         try:
