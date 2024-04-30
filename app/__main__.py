@@ -30,6 +30,7 @@ class App:
         self.food_menus_id = f'{self.account_id}/{self.location_id}/foodMenus'
 
     # GET request
+    #TODO: remove `name` from menu.json to prevent accidental location and account id leaks due to VCS ?
     def download_food_menu(self):
         logging.info('Getting food menu...')
         food_menu = self.service.accounts().locations().getFoodMenus(
