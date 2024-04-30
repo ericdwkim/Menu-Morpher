@@ -56,9 +56,10 @@ class App:
         canHaveFoodMenus_flag = location_metadata['metadata']['canHaveFoodMenus']
         # if flag is true, inform user to proceed with jsons to menu.json to then update()
         if canHaveFoodMenus_flag:
-            logging.info(f'Based on your location ID: "{self.location_id}", you can call update_food_menu via comamnd line flag `--update`\nEnsure that you\ve made all the appropriate changes to your menu.json prior to calling update.')
+            logging.info(f'Based on your location ID: "{self.location_id}", you can call update_food_menu via comamnd line flag `--update`')
+            logging.warning(f'\nPlease ensure that all changes have already been made to your menu.json prior to calling update!')
         else:
-            logging.error(f'Based on your provided location ID: {self.location_id}, you will not be able to update food menus via updateFoodMenus API\ncanHaveFoodMenus_flag:{canHaveFoodMenus_flag}. See "https://developers.google.com/my-business/reference/rest/v4/accounts.locations" for more details')
+            logging.error(f'Based on your provided location ID: {self.location_id}, you will NOT be able to update food menus via updateFoodMenus API\nPlease see "https://developers.google.com/my-business/reference/rest/v4/accounts.locations" for more details.\nYour `canHaveFoodMenus`: {canHaveFoodMenus_flag}\n')
 
     # PATCH request
     def update_food_menu(self):
