@@ -33,13 +33,13 @@ class App:
     #TODO: remove `name` from menu.json to prevent accidental location and account id leaks due to VCS ?
     def download_food_menu(self):
         logging.info('Getting food menu...')
-        food_menu = self.service.accounts().locations().getFoodMenus(
+        menu = self.service.accounts().locations().getFoodMenus(
             name=self.food_menus_id
         ).execute()
 
-        json.dump(food_menu, open('../food_menu.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
+        json.dump(menu, open('menu.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
 
-        if isinstance(food_menu, dict):
+        if isinstance(menu, dict):
             logging.info('Successfully downloaded food menu!')
         else:
             logging.error('Failed to download food menu')
