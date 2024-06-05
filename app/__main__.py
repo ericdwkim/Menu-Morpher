@@ -30,19 +30,22 @@ class App:
         self.food_menus_id = f'{self.account_id}/{self.location_id}/foodMenus'
 
     # GET request
-    #TODO: remove `name` from menu.json to prevent accidental location and account id leaks due to VCS ?
     def download_food_menu(self):
         logging.info('Getting food menu...')
         menu = self.service.accounts().locations().getFoodMenus(
             name=self.food_menus_id
         ).execute()
 
-        json.dump(menu, open('menu.json', 'w', encoding='utf-8'), indent=4, ensure_ascii=False)
-
         if isinstance(menu, dict):
+            # Remove the `name` key if it exists
+            menu.pop("name", None)
             logging.info('Successfully downloaded food menu!')
         else:
             logging.error('Failed to download food menu')
+            return
+
+        with open('menu.json', 'w', encoding='utf-8') as file:
+            json.dump(menu, file, indent=4, ensure_ascii=False)
 
     def get_canHaveFoodMenus(self):
         logging.info('Checking `canHaveFoodMenus` flag in FoodMenus.Metadata object...')

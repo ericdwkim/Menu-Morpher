@@ -1,0 +1,1019 @@
+{
+    "menus": [
+        {
+            "sections": [
+                {
+                    "labels": [
+                        {
+                            "displayName": "Alcoholic Drinks (술)"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Miller Light"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "3",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Coors Light"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "3",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Terra"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "4",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Sake"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "6",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Cheongha (청하)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "8",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Makgeolli (막걸리)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Soju (소주)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "labels": [
+                        {
+                            "displayName": "Non-Alcoholic Drinks (음료수)"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Tea (차)",
+                                    "description": "Green /Jasmine / Unsweetened Ice Tea"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "2",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Aquafina Bottled Water"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "2",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Soda",
+                                    "description": "Coke/Coke Zero/Diet coke Sprite Dr. Pepper/Diet Dr. Pepper Pepsi/Pepsi Zero"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "2",
+                                    "nanos": 990000000
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "labels": [
+                        {
+                            "displayName": "Appetizers"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Shrimp Tempura (새우튀김)",
+                                    "description": "(8) piece deep fried shrimp tempura served with a side of special soy sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "9",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Kimbap (김밥)",
+                                    "description": "(1) roll of bulgogi beef with rice and vegetables served with a side of special soy sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "5",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Egg Rolls (에그롤)",
+                                    "description": "(2) piece pork egg rolls with vegetables served with a side of spicy and sweet chili sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "5",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Yaki Mandu (야끼만두)",
+                                    "description": "(12) piece deep fried vegetable dumplings"
+                                }
+                            ],
+                            "attributes": {
+                                "dietaryRestriction": [
+                                    "VEGETARIAN"
+                                ],
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "7",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Steam Mandu (스팀만두)",
+                                    "description": "(10) piece steamed pork dumplings served with a side of special soy sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "8",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Seafood Pancake (해물파전)",
+                                    "description": "Classic Korean pancake with seafood mix and vegetables"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "14",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Kimchi Pancake (김치파전)",
+                                    "description": "Classic Korean pancake with sliced kimchi and vegetables"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Vegetable Pancake (야채파전)",
+                                    "description": "Classic Korean pancake with carrots, scallions, onions, bell peppers, and eggs"
+                                }
+                            ],
+                            "attributes": {
+                                "dietaryRestriction": [
+                                    "VEGETARIAN"
+                                ],
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Tteokbokki (떡뽁이)",
+                                    "description": "Classic spicy sliced rice cakes in traditional tteokbokki sauce. Add ramen noodles (+$3.99). Add cheese (+$3.99)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "labels": [
+                        {
+                            "displayName": "Lunch Specials"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "LA Galbi (엘에이 갈비)",
+                                    "description": "Classic sweet and savory bone-in beef short ribs marinated in Korean soy sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "15",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Beef Bulgogi (불고기)",
+                                    "description": "Classic sliced beef marinated in special bulgogi sauce and onions"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Pork Bulgogi (돼지 불고기)",
+                                    "description": "Spicy boneless, sliced pork meat marinated in special bulgogi sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "12",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Chicken Bulgogi (치킨 불고기)",
+                                    "description": "Sliced chicken marinated in special bulgogi sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "12",
+                                    "nanos": 990000000
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "labels": [
+                        {
+                            "displayName": "Dinner Specials"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Bibimbap (비빔밥)",
+                                    "description": "Rice combined with your choice of protein (beef / chicken / tofu), assorted vegetables, and (1) egg"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Stone Bowl Bibimbap (돌솥비빔밥)",
+                                    "description": "Rice combined with your choice of protein (beef / chicken / tofu), assorted vegetables, (1) egg, and Korean chili paste served in a hot stone bowl"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "15",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Fresh Galbi (생갈비)",
+                                    "description": "Special fresh beef ribs grilled with mushrooms and onions served with a side of sliced garlic, green hot peppers, salted sesame oil sauce, soybean paste sauce, and fresh green lettuce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "35",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "LA Galbi (엘에이 갈비)",
+                                    "description": "Classic sweet and savory bone-in beef short ribs marinated in Korean soy sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "25",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Beef Bulgogi (소 불고기)",
+                                    "description": "Classic sliced beef marinated in special bulgogi sauce and onions"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "21",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Spicy Pork Bulgogi (돼지 불고기)",
+                                    "description": "Sliced boneless pork marinated in special spicy bulgogi sauce grilled with onions"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "19",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Ttukbaegi Bulgogi (뚝배기 불고기)",
+                                    "description": "Sliced beef marinated in special bulgogi sauce grilled with onions and rice cake"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "17",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Chicken Bulgogi (치킨 불고기)",
+                                    "description": "Sliced chicken marinated in special bulgogi sauce grilled with onions"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "19",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Beef Brisket BBQ (차돌박이)",
+                                    "description": "Sliced beef brisket grilled with onions served with a side of sliced garlic, green hot peppers, salted sesame oil sauce, and fresh green lettuce (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "28",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Samgyeopsal (삼겹살)",
+                                    "description": "Classic sliced pork belly grilled with onions served with a side of sliced garlic, green hot peppers, salted sesame oil sauce, and fresh green lettuce (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "35",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Suyuk Pork Belly (수육 삼겹살)",
+                                    "description": "Steamed pork belly served with a side of sliced garlic, green hot peppers, salted shrimp, soybean paste sauce, and fresh green lettuce (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "26",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Godeungeo Gui (고등어 구이)",
+                                    "description": "Grilled mackerel with onions seasoned with salt and soy sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "19",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Imyeonsu Gui (임연수 구이)",
+                                    "description": "Grilled Atka mackerel with green onions seasoned with salt and soy sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "19",
+                                    "nanos": 989999998
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "labels": [
+                        {
+                            "displayName": "Stir Fried (볶음)"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Kimchi / Shrimp / Chicken Fried Rice (김치 / 새우 / 치킨 볶음밥)",
+                                    "description": "Stir fried rice with onions, scallions, carrots, bell peppers with your choice of meat or kimchi"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "14",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Combo Fried Rice (콤보 볶음밥)",
+                                    "description": "Stir fried rice with onions, scallions, carrots, bell peppers with assorted meats (shrimp, chicken, beef)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "16",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Jhookoomi Bokkeum / Ohiinguh Bokkeum (쭈꾸미 / 오징어 볶음)",
+                                    "description": "Spicy stir fried small or regular-sized octopus with green onions, zucchini, cabbage, onions, hot pepper powder"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "18",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Tofu Kimchi (두부 김치 볶음)",
+                                    "description": "Stir fried kimchi with onion, scallions, hot pepper powder served with sliced boneless pork and tofu"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "19",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Japchae (잡채)",
+                                    "description": "Stir fried glass noodles and vegetables with your choice of protein (chicken / beef / shrimp / tofu)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "15",
+                                    "nanos": 990000000
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "labels": [
+                        {
+                            "displayName": "Soups & Stews (탕과찌개)"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Mandu Soup (만두국)",
+                                    "description": "Dumpling soup with beef, eggs, scallions, and garnished with dry seaweed"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Duk Mandu Soup (떡만두국)",
+                                    "description": "Dumpling soup with sliced rice cake, beef, eggs, scallions, and garnished with dry seaweed"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Special Ramen (스페셜라면)",
+                                    "description": "Seafood mix, clams, green mussels, eggs, onions, hot pepper powder with ramen noodles"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "9",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Kimchi Jjigae (김치 찌개)",
+                                    "description": "Classic spicy kimchi stew with pork, sliced tofu, onions, hot pepper powder, and glass noodles"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "14",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Soondubu Jjigae (순두부 찌개)",
+                                    "description": "Classic spicy soft tofu stew with your choice of kimchi or beef and vegetables"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Seafood Soondubu Jjigae (해물 순두부 찌개)",
+                                    "description": "Classic spicy soft tofu stew with seafood mix and vegetables"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "15",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Doenjang-jjigae (된장 찌개)",
+                                    "description": "Classic umami-rich and savory stew made with fermented soybean paste and your choice of protein (pork / beef / clam)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "13",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Samgye Tang (삼계탕)",
+                                    "description": "Classic hearty whole chicken soup made with ginseng, jujubes, and glutinous sweet rice garnished with green onions"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "25",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Jjamppong (짬뽕)",
+                                    "description": "Classic spicy seafood noodle soup made with special seafood mix, onions, mushrooms, hot pepper powder, and thick noodles"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "15",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "King Jjamppong (황제 짬뽕)",
+                                    "description": "Koreana spin on the classic jjamppong with green mussels, shrimp, and your choice of octopus or lobster"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "28",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Pollock Fish Soup / Pollock Egg Soup (동태탕 / 알탕)",
+                                    "description": "Hearty dried fish or fish egg soup made with white clams, onions, radish, zucchini, tofu, hot pepper powder, and fish sauce"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "18",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Galbi Tang (갈비탕)",
+                                    "description": "Classic hearty beef rib soup with assorted vegetables and glass noodles"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "20",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Ugeoji Galbi Tang (우거지 갈비탕)",
+                                    "description": "Hearty beef rib soup with vegetable trimmings and glass noodles"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "22",
+                                    "nanos": 989999998
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Yukgaejang (육개장)",
+                                    "description": "Classic spicy sliced beef brisket soup with onions, glass noodles, fermented soybean paste, bean sprouts, and hot pepper powder"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "14",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Naengmyeon / Bibim Naengmyeon (물냉면 / 비빔냉면)",
+                                    "description": "Classic Korean cold noodles soup with your choice of regular or spicy"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "14",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Haemul Jeongol (해물 전골)",
+                                    "description": "Spicy seafood stew with assorted vegetables, seafood mix, shrimp, octopus, green onions, pollock, hot pepper paste, tofu, mushrooms, napa cabbage, and radish (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "38",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Budae Jjigae Jeongol (부대찌개 전골)",
+                                    "description": "Classic spicy army stew consisting of sausages, spam, pork, kimchi, tofu, ramen noodles, eggs, and mushrooms (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "38",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Goat Meat Soup (흑염소 전골)",
+                                    "description": "Spicy black goat stew with assorted vegetables (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "39",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Gopchang Jeongol (곱창 전골)",
+                                    "description": "Beef tripe intestine stew with assorted vegetables, rice, onions, hot peppers, hot pepper powder, rice cake, and ramen noodles (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "38",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Ahgu-Jjim (아구찜)",
+                                    "description": "Spicy braised monkfish stew with assorted vegetables, bean sprouts, and sea squirt (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "38",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Haemul-Jjim (해물찜)",
+                                    "description": "Spicy seafood stew braised with assorted vegetables, seafood mix, clams, mussels, shrimps, octopus, pollock, and onions (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "38",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
+                                    "displayName": "Dakdoritang (닭도리탕)",
+                                    "description": "Spicy chicken stew braised with potatoes, assorted vegetables, onions, and glass noodles (2 servings)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "38",
+                                    "nanos": 990000000
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "labels": [
+                {
+                    "displayName": "Menu"
+                }
+            ]
+        }
+    ]
+}
