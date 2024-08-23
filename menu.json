@@ -979,21 +979,6 @@
                         {
                             "labels": [
                                 {
-                                    "displayName": "Haemul-Jjim (해물찜)",
-                                    "description": "Spicy seafood stew braised with assorted vegetables, seafood mix, clams, mussels, shrimps, octopus, pollock, and onions (2 servings)"
-                                }
-                            ],
-                            "attributes": {
-                                "price": {
-                                    "currencyCode": "USD",
-                                    "units": "38",
-                                    "nanos": 990000000
-                                }
-                            }
-                        },
-                        {
-                            "labels": [
-                                {
                                     "displayName": "Dakdoritang (닭도리탕)",
                                     "description": "Spicy chicken stew braised with potatoes, assorted vegetables, onions, and glass noodles (2 servings)"
                                 }
