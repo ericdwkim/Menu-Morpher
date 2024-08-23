@@ -173,13 +173,13 @@
                             "labels": [
                                 {
                                     "displayName": "Shrimp Tempura (새우튀김)",
-                                    "description": "(8) piece deep fried shrimp tempura served with a side of special soy sauce"
+                                    "description": "(4) piece deep fried shrimp tempura served with a side of special soy sauce"
                                 }
                             ],
                             "attributes": {
                                 "price": {
                                     "currencyCode": "USD",
-                                    "units": "9",
+                                    "units": "7",
                                     "nanos": 990000000
                                 }
                             }
