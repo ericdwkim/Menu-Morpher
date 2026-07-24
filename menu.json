@@ -964,6 +964,21 @@
                         {
                             "labels": [
                                 {
+                                    "displayName": "Galbi Jeongol (갈비전골)",
+                                    "description": "Spicy beef rib stew with assorted vegetables and glass noodles (2 servings). Add ramen noodles (+$5.99)"
+                                }
+                            ],
+                            "attributes": {
+                                "price": {
+                                    "currencyCode": "USD",
+                                    "units": "28",
+                                    "nanos": 990000000
+                                }
+                            }
+                        },
+                        {
+                            "labels": [
+                                {
                                     "displayName": "Ahgu-Jjim (아구찜)",
                                     "description": "Spicy braised monkfish stew with assorted vegetables, bean sprouts, and sea squirt (2 servings)"
                                 }
